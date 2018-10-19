@@ -1,0 +1,64 @@
+*{										      	/* Personalização do escopo geral e alteração da fonte */
+	margin: 0;   								
+	padding: 0;									
+	border: 0;									
+	font-family: Arial;						
+}												
+
+.wrap{											/* Define o tamanho das laterais em 1200px */
+	width: 1100px;
+	margin: auto;
+}
+
+.texto p{										/* Alinhamento do texto */
+    text-align: justify;
+}
+
+a{												/* Personaliza os links */
+    color: white;
+    text-decoration: none;
+}
+
+header{											/* Personaliza o cabeçalho */
+	margin-bottom: 25px;
+	background-color: rgb(77, 77, 77);
+	width: 100%;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	color: white;
+	text-align: center;
+}
+
+.imagem{										/* Tamanho do bloco da imagem */
+    float: left;
+    clear: left;
+    margin-bottom: 25px;
+}
+
+.imagem h3{										/* Alinhamento do texto acima da imagem */
+    text-align: center;
+}
+
+img{											/* Tamanho da imagem */
+    width: 600px;
+}
+
+.refazer{										/* Tamanho do bloco de refazer o teste */
+    width: 500px;
+    float: left;
+}
+
+.refazer a{										/* Personaliza o link do refazer */
+    text-align: center;
+    color: black;
+}
+
+footer{											/* Personalização do rodapé */
+    clear: both;
+	background-color: rgb(77, 77, 77);
+	width: 100%;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	color: white;
+	text-align: center;
+}
