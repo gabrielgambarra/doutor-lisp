@@ -1,6 +1,11 @@
+(defvar pergunta)
+(defvar resposta)
+(defvar x)
+
 (with-open-file (arquivo "pergresp.txt"
                     :direction :input
-                    :if-does-not-exist :error)
+                    :if-does-not-exist :error
+                    :external-format :iso-8859-1)
   (setq pergunta (read-line arquivo))
   (setq resposta (read-line arquivo))
 )
