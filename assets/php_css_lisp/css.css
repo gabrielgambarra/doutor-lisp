@@ -1,73 +1,73 @@
-*{										      	/* Personalização do escopo geral e alteração da fonte */
-	margin: 0;   								
-	padding: 0;									
-	border: 0;									
-	font-family: Arial;						
-}												
-
-.wrap{											/* Define o tamanho das laterais em 1200px */
-	width: 1200px;
-	margin: auto;
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: Arial;
 }
 
-.wrap2{											/* Define o tamanho das laterais em 700px */
-	width: 700px;
-	margin: auto;
+.wrap {
+  width: 1200px;
+  margin: auto;
 }
 
-.caixa1{										/* Personalização da caixa1 onde será exibida a pergunta */
-	width: 700px;
-	height: 150px;
-	margin: auto;
-	background-color: rgb(77, 77, 77);
-	border-radius: 10px;
+.wrap2 {
+  width: 700px;
+  margin: auto;
 }
 
-.sim{											/* Personaliza o botão sim */
-	border-radius: 10px;
-	margin-top: 50px;
-	float: left;
-	margin-left: 75px;
-	margin-right: 120px;
-	width: 150px;
-	height: 100px;
-	background-color: grey;
-	color: white;
-	font-size: 30px;
+.caixa1 {
+  width: 700px;
+  height: 150px;
+  margin: auto;
+  background-color: rgb(77, 77, 77);
+  border-radius: 10px;
 }
 
-.sim:hover{										/* Personaliza o botão sim quando passa o mouse em cima */
-	background-color: rgb(77, 77, 77);
+.sim {
+  border-radius: 10px;
+  margin-top: 50px;
+  float: left;
+  margin-left: 75px;
+  margin-right: 120px;
+  width: 150px;
+  height: 100px;
+  background-color: grey;
+  color: white;
+  font-size: 30px;
 }
 
-.nao{											/* Personaliza o botão não */
-	border-radius: 10px;
-	margin-top: 50px;		
-	float: left;
-	margin-left: 120px;
-	margin-right: 75px;
-	width: 150px;
-	height: 100px;
-	background-color: grey;
-	color: white;
-	font-size: 30px;
+.sim:hover {
+  background-color: rgb(77, 77, 77);
 }
 
-.nao:hover{										/* Personaliza o botão não quando passa o mouse em cima */
-	background-color:rgb(77, 77, 77);
+.nao {
+  border-radius: 10px;
+  margin-top: 50px;
+  float: left;
+  margin-left: 120px;
+  margin-right: 75px;
+  width: 150px;
+  height: 100px;
+  background-color: grey;
+  color: white;
+  font-size: 30px;
 }
 
-a{												/* Personaliza os links */
-	color: white;
-	text-decoration: none;
+.nao:hover {
+  background-color: rgb(77, 77, 77);
 }
 
-header{											/* Personaliza o cabeçalho */
-	margin-bottom: 120px;
-	background-color: rgb(77, 77, 77);
-	width: 100%;
-	padding-top: 15px;
-	padding-bottom: 15px;
-	color: white;
-	text-align: center;
+a {
+  color: white;
+  text-decoration: none;
+}
+
+header {
+  margin-bottom: 120px;
+  background-color: rgb(77, 77, 77);
+  width: 100%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: white;
+  text-align: center;
 }
